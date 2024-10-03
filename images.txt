@@ -2,19 +2,13 @@ nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
-#emby开心版
 xinjiawei1/emby_unlockd:latest
-#下载器
 chisbread/transmission:lastest
 linuxserver/qbittorrent:latest
-#海报刮削器-中文
 dzhuang/tinymediamanager:latest
-#大吉
 gdy666/lucky:latest
-#影音库整理
 jxxghp/moviepilot:latest
-#clash
 dreamacro/clash:latest
 haishanh/yacd:latest
+#支持指定架构
+--platform=linux/arm64 xiaoyaliu/alist
